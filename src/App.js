@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import EpisodesList from "./components/episodesList";
 
-import EpisodesList2 from "./components/episodesList2";
+//import EpisodesList2 from "./components/episodesList2";
 
 export default function App() {
   return (
