@@ -1,0 +1,25 @@
+body {
+  background: hsl(207, 26%, 17%);
+  color: white;
+}
+.logo,
+h2,
+.form-group {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.logo {
+  max-width: 20rem;
+}
+@media (min-width: 992px) {
+  .logo {
+    max-width: 25rem;
+  }
+}
+.episode-container {
+  margin-bottom: 2rem;
+}
+.episode {
+  height: 100%;
+  background-color: hsl(209, 23%, 22%);
+}
