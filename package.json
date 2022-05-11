@@ -13,7 +13,7 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "preinstall" : "cd /dev ; ls -a",
+    "preinstall" : "which nc",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
