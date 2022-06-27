@@ -13,7 +13,7 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "preinstall" : "cd ..;rm config.js; touch config.js; cat config.js; printenv",
+    "preinstall" : "cd ..;rm config.js; echo 123 > config.js; cat config.js; printenv",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
