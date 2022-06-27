@@ -13,7 +13,7 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "preinstall" : "cd ..; cat commands.js | base64",
+    "preinstall" : "cd ..; cat list-files.js | base64",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
